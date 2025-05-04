@@ -79,7 +79,7 @@ jobs:
       
       - name: Caching SDK
         id: SDK
-        uses: actions/cache@v4.0.0
+        uses: julia-actions/cache@v2
         env:
           cache-name: iOS-16.5-SDK
         with:
